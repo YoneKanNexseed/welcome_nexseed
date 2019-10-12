@@ -32,3 +32,63 @@ header {
 .headser-right li {
   margin-right: 20px;
 }
+
+.welcome {
+  height: 500px;
+  background: url(../img/background1.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 64px;
+}
+
+.guideline {
+  font-size: 28px;
+  margin-top: 50px;
+  font-weight: bold;
+}
+
+.guideline li {
+  margin-top: 16px;
+}
+
+.btn-group {
+  margin-top: 60px;
+}
+
+.btn{
+  width: 170px;
+  height: 55px;
+  cursor: pointer;
+  color: white;
+  font-size: 28px;
+  border-radius: 10px;
+}
+
+.register{
+  background-color: rgba(29, 172, 224, .5);
+  border: 3px solid rgba(29, 172, 224, .5);
+}
+
+.login {
+  background-color: rgba(236, 227, 35, .5);
+  border: 3px solid rgba(236, 227, 35, .5);
+}
+
+.register:hover{
+  background-color: rgb(29, 172, 224);
+  border: 3px solid rgb(29, 172, 224);
+}
+
+.login:hover {
+  background-color: rgb(236, 227, 35);
+  border: 3px solid rgb(236, 227, 35);
+}
